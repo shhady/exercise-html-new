@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #section2 {
+    display: flex;
+    height: 100vh;
+    color: black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    .safety{
+        width: 30%;
+
+    }
+    .learn{
+        display: flex;
+        margin-top: 60%;
+        align-items: center;
+        
+    }
+    .img{
+        height: 100vh;
+        width: 500px;
+        flex-shrink: 0;
+    }
+    @media (max-width=768px) {
+        #section2{
+            display:block;
+            /* flex-direction: column; */
+
+        }
+        .safety{
+            width: 500px;
+        }
+        .safety p{
+            width: 100%;
+        }
+    }
+
+</style>
+<body>
+    <div id="section2" class="section2">
+        
+        <div class="img">
+            <img src="./img/model-3-hero-a-desktop.jfif" alt="bodycar" width="100%" height="100%">
+        </div>
+        <div class="safety">
+        <p>safety</p>
+        <h2>Built for Safety</h2>
+        <p>
+            Safety is the most important part of every Tesla.
+            We design our vehicles to exceed safety standards.<br>
+            5-Star Rating <br>
+            Model 3 achieved NHTSA 5-star safety ratings in
+            every category and subcategory.<br>
+            Top Safety Pick+<br>
+            Model 3 received the IIHS Top Safety Pick+ award, 
+            with top ratings in all crashworthiness and front 
+            crash prevention categories.
+        </p>     
+        
+        <div class="learn">
+            <div class="icon1">
+                <i class="fa-2x fa-solid fa-circle-plus"></i>
+               <span> Learn More</span>
+                 </div>
+            <div>
+                <button class="Order1">ORDER NOW</button>
+            </div>
+        </div>
+    </div>
+  
+</div>
+</body>
+</html>
